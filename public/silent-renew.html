@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Silent Renew</title>
+  </head>
+  <body>
+    <script>
+      window.parent.postMessage('oidc-client:session_unchanged', '*');
+    </script>
+  </body>
+</html>
